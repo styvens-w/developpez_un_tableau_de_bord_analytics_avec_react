@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f57339d9-6b84-4df1-90e4-66040262c86b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/prettier.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/.devcontainer/devcontainer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/.dockerignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/app/data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/app/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/app/middleware.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/app/models.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/app/routes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/yarn.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/developpez_un_tableau_de_bord_analytics_avec_react.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/logo192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/logo512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/scss/App.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/pages/App.jsx" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package.json" />
+        <option value="SCSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2OFEd0OmvfA7GUP5BhzfxAIDIv3" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/styve/IDEAProject/developpez-une-application-web-avec-react-et-react-router",
+    "list.type.of.created.stylesheet": "SCSS",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.standard": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "prettierjs.PrettierConfiguration.Package": "C:\\Users\\styve\\AppData\\Roaming\\npm\\node_modules\\prettier",
+    "settings.editor.selected.configurable": "settings.javascript.prettier",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\styve\IDEAProject\developpez_un_tableau_de_bord_analytics_avec_react\frontend\public" />
+      <recent name="C:\Users\styve\IDEAProject\developpez_un_tableau_de_bord_analytics_avec_react\frontend\src\assets\scss" />
+      <recent name="C:\Users\styve\IDEAProject\developpez_un_tableau_de_bord_analytics_avec_react\frontend\src\styles" />
+      <recent name="C:\Users\styve\IDEAProject\developpez_un_tableau_de_bord_analytics_avec_react\frontend\src\pages" />
+      <recent name="C:\Users\styve\IDEAProject\developpez_un_tableau_de_bord_analytics_avec_react\frontend" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f57339d9-6b84-4df1-90e4-66040262c86b" name="Changes" comment="" />
+      <created>1681148012399</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1681148012399</updated>
+      <workItem from="1681148013414" duration="109000" />
+      <workItem from="1681148145257" duration="401000" />
+      <workItem from="1681148588521" duration="1663000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
