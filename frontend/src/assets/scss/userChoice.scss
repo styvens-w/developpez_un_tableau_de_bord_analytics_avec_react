@@ -1,0 +1,25 @@
+@import "./base/base";
+@import "./layouts/header";
+@import "./layouts/sideBar";
+
+
+.userList {
+  h1 {
+    color: red;
+    margin-top: 0;
+  }
+
+  &__navbar ul li {
+    list-style: "- ";
+    margin: 15px 0 15px 0;
+    color: blue;
+    font-weight: 700;
+    font-size: 18px;
+
+    a {
+      text-decoration: none;
+      color: blue;
+    }
+
+  }
+}

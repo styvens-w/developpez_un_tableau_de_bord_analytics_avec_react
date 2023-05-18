@@ -1,0 +1,28 @@
+* {
+  font-family: Roboto, sans-serif;
+}
+
+body {
+  min-width: 1024px;
+  width: 1440px;
+  margin: auto;
+
+  main {
+    position: relative;
+    margin-top: 68px;
+    margin-left: 224px;
+    max-width: 1126px;
+
+    .smallChart {
+      display: flex;
+      width: 835px;
+    }
+
+    .keyInfoCards {
+      position: absolute;
+      top: 166px;
+      right: 0;
+      width: 258px;
+    }
+  }
+}

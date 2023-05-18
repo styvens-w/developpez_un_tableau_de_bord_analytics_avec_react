@@ -1,0 +1,50 @@
+.score {
+  position: relative;
+  margin-top: 30px;
+  background: #fbfbfb;
+  border-radius: 5px;
+  width: 258px;
+  height: 263px;
+  box-shadow: 0 2px 4px 0 #00000005;
+
+  &__legend {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    font-weight: 500;
+
+    &__title {
+      color: #20253A;
+      font-size: 15px;
+      line-height: 25px;
+      margin-top: 24px;
+      margin-left: 30px;
+    }
+
+    &__objective {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      p {
+        width: 95px;
+        text-align: center;
+        margin: 0;
+        line-height: 26px;
+
+        &:nth-child(1) {
+          margin-top: 30px;
+          font-weight: 700;
+          font-size: 26px;
+          color: #282D30;
+        }
+
+        &:nth-child(2) {
+          margin-top: 5px;
+          font-size: 16px;
+          color: #74798C;
+        }
+      }
+    }
+  }
+}

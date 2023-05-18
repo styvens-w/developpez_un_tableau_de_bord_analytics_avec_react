@@ -1,0 +1,21 @@
+.performance {
+  margin-top: 30px;
+  margin-right: 30px;
+  background: #282d30;
+  border-radius: 5px;
+  width: 258px;
+  height: 263px;
+  box-shadow: 0 2px 4px 0 #00000005;
+
+  .tool-tip__radar-chart {
+    color: #282d30;
+    background: white;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+}

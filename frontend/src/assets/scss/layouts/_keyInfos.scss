@@ -1,0 +1,39 @@
+.keyInfoCard {
+  display: flex;
+  align-items: center;
+  background: #fbfbfb;
+  padding: 0;
+  margin-bottom: 39px;
+  width: 258px;
+  height: 124px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px 0 #00000005;
+
+  img {
+    height: 60px;
+    width: 60px;
+    margin-left: 32px;
+  }
+
+  .text {
+    margin-left: 24px;
+
+    p {
+      margin: 0;
+      line-height: 24px;
+
+      &:nth-child(1) {
+        font-weight: 700;
+        font-size: 20px;
+        color: #282D30;
+      }
+
+      &:nth-child(2) {
+        font-weight: 500;
+        font-size: 14px;
+        color: #74798C;
+        margin-top: 5px;
+      }
+    }
+  }
+}

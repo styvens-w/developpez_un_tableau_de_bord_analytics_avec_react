@@ -4,41 +4,57 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f57339d9-6b84-4df1-90e4-66040262c86b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/prettier.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/.devcontainer/devcontainer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/.dockerignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/app/data.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/app/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/app/middleware.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/app/models.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/app/routes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/yarn.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/developpez_un_tableau_de_bord_analytics_avec_react.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/public/logo192.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/public/logo512.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/public/manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/public/robots.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/scss/App.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/pages/App.jsx" afterDir="false" />
+    <list default="true" id="f57339d9-6b84-4df1-90e4-66040262c86b" name="Changes" comment="Project initialization">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/mocks/userActivity.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/mocks/userData.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/mocks/userPerformance.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/mocks/userSessions.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/logoAlters.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/logoBike.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/logoCalories.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/logoCarbs.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/logoFat.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/logoProtein.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/logoRelax.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/logoSportsee.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/logoSwimming.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/scss/base/_base.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/scss/error.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/scss/layouts/_activity.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/scss/layouts/_header.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/scss/layouts/_keyInfos.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/scss/layouts/_navbar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/scss/layouts/_performance.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/scss/layouts/_score.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/scss/layouts/_sessions.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/scss/layouts/_sideBar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/scss/layouts/_sideNavbar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/scss/layouts/_title.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/scss/userChoice.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/Activity.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/Header.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/KeyInfos.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/Navbar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/Performance.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/Score.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/Sessions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/SideBar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/SideNavbar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/Title.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/pages/Error.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/pages/UserChoice.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/utils/hooks/useAxios.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/utils/services/app.service.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/utils/services/formatChartData.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/assets/scss/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/assets/scss/app.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/App.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +68,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="package.json" />
+        <option value="JavaScript File" />
+        <option value="JavaScript Component React" />
         <option value="SCSS File" />
       </list>
     </option>
@@ -70,30 +88,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/styve/IDEAProject/developpez-une-application-web-avec-react-et-react-router",
-    "list.type.of.created.stylesheet": "SCSS",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.standard": "",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "prettierjs.PrettierConfiguration.Package": "C:\\Users\\styve\\AppData\\Roaming\\npm\\node_modules\\prettier",
-    "settings.editor.selected.configurable": "settings.javascript.prettier",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/styve/IDEAProject/developpez-une-application-web-avec-react-et-react-router&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;SCSS&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;C:\\Users\\styve\\AppData\\Roaming\\npm\\node_modules\\prettier&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.javascript.prettier&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\styve\IDEAProject\developpez_un_tableau_de_bord_analytics_avec_react\frontend\public" />
+      <recent name="C:\Users\styve\IDEAProject\developpez_un_tableau_de_bord_analytics_avec_react\frontend\src\utils" />
       <recent name="C:\Users\styve\IDEAProject\developpez_un_tableau_de_bord_analytics_avec_react\frontend\src\assets\scss" />
-      <recent name="C:\Users\styve\IDEAProject\developpez_un_tableau_de_bord_analytics_avec_react\frontend\src\styles" />
-      <recent name="C:\Users\styve\IDEAProject\developpez_un_tableau_de_bord_analytics_avec_react\frontend\src\pages" />
-      <recent name="C:\Users\styve\IDEAProject\developpez_un_tableau_de_bord_analytics_avec_react\frontend" />
+      <recent name="C:\Users\styve\IDEAProject\developpez_un_tableau_de_bord_analytics_avec_react\frontend\src\assets\scss\base" />
+      <recent name="C:\Users\styve\IDEAProject\developpez_un_tableau_de_bord_analytics_avec_react\frontend\src\assets\scss\layouts" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -106,11 +126,31 @@
       <updated>1681148012399</updated>
       <workItem from="1681148013414" duration="109000" />
       <workItem from="1681148145257" duration="401000" />
-      <workItem from="1681148588521" duration="1663000" />
+      <workItem from="1681148588521" duration="1999000" />
+      <workItem from="1681195587194" duration="12182000" />
+      <workItem from="1681307833856" duration="1493000" />
+      <workItem from="1681457114923" duration="3031000" />
+      <workItem from="1681815875374" duration="22894000" />
+      <workItem from="1681897747412" duration="9000" />
+      <workItem from="1681912649710" duration="68203000" />
+      <workItem from="1682863951317" duration="54797000" />
+      <workItem from="1684415897282" duration="9515000" />
     </task>
+    <task id="LOCAL-00001" summary="Project initialization">
+      <created>1681150341216</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1681150341216</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Project initialization" />
+    <option name="LAST_COMMIT_MESSAGE" value="Project initialization" />
   </component>
 </project>

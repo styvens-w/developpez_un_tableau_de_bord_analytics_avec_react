@@ -1,0 +1,29 @@
+.sideBar {
+  position: absolute;
+  top: 0;
+  z-index: -9999;
+  background: #020203;
+  height: 1024px;
+  width: 117px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .copyright {
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    margin: 0;
+    width: 150px;
+    rotate: 270deg;
+    transform-origin: left;
+
+    small {
+      color: white;
+      font-size: 12px;
+      font-weight: 500;
+      line-height: 24px;
+    }
+  }
+}
+
