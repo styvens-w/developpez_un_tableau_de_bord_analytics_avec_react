@@ -34,7 +34,6 @@ function Performance() {
             dy={3.5}
             dataKey="subject"
           />
-          <PolarRadiusAxis domain={[0, 260]} tick={false} axisLine={false} />
           <Radar dataKey="grade" fill="#FF0101" fillOpacity={0.7} />
           <Tooltip
             wrapperStyle={{ outline: "none" }}
