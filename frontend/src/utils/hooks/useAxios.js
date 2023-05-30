@@ -9,7 +9,7 @@ import { useParams } from "react-router-dom";
  */
 export function useAxios(url) {
   const [data, setData] = useState(null);
-  const [error, setError] = useState(false);
+  const [error, setError] = useState("");
   const { userId } = useParams();
   const idUser = userId;
 
@@ -32,9 +32,7 @@ export function useAxios(url) {
           }
         })
         .catch(function (error) {
-          if (error.response.status === 404) {
-            setError(true);
-          }
+          setError(error.response.status);
         });
     }
 

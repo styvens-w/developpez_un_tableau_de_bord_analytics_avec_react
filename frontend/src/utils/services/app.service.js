@@ -109,7 +109,9 @@ export const getPerformance = () => {
 export const getError = () => {
   const { error } = getData("user");
 
-  if (error) {
+  if (error === 404) {
     return error;
+  } else if (error === 500) {
+    dataSources = "mocks";
   }
 };
