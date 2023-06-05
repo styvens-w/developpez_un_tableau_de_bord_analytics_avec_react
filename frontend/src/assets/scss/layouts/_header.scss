@@ -1,6 +1,5 @@
-
-
 .header {
+  z-index: 1;
   height: 91px;
   background: #020203;
   display: flex;
@@ -9,5 +8,6 @@
 
   img {
     margin-left: 29px;
+    z-index: 2;
   }
 }

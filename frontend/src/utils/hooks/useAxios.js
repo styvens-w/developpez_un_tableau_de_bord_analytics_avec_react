@@ -1,11 +1,12 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
 import { useParams } from "react-router-dom";
+import PropTypes from "prop-types";
 
 /**
- *
- * @param {string} url
- * @returns {{data: Object}, {error; Boolean}}
+ * Hook personnalisé qui va récupérer les données grâce à axios
+ * @param url - url des données
+ * @returns {{data: Object, error: number}}
  */
 export function useAxios(url) {
   const [data, setData] = useState(null);
@@ -41,3 +42,7 @@ export function useAxios(url) {
 
   return { data, error };
 }
+
+useAxios.propTypes = {
+  url: PropTypes.string,
+};

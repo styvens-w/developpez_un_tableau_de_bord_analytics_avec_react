@@ -12,9 +12,13 @@ import { getActivity } from "../utils/services/app.service";
 import FormatChartData from "../utils/services/formatChartData";
 
 function Activity() {
+  // On récupère les données des activités
   const data = getActivity();
+
+  // On instancie la classe qui va formater les données pour le graphique
   const chartDataFormatter = new FormatChartData();
 
+  // Puis, on est appel la methode approprié au graphique et qui prend en paramètre les données
   const formattedData = chartDataFormatter.setBarsFormattedData(data);
 
   return (
@@ -88,6 +92,7 @@ function Activity() {
 
 export default Activity;
 
+// Customisation pour le tooltip
 function BarsCustomTooltip(active) {
   let kilogramData;
   let caloriesData;
@@ -111,6 +116,7 @@ function BarsCustomTooltip(active) {
   );
 }
 
+// Customisation pour la legend
 function BarsCustomLegend(props) {
   const { payload } = props;
   const AddName = ["Poids", "Calories brûlées"];

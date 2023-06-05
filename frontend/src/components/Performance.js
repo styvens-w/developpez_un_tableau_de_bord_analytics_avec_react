@@ -25,6 +25,7 @@ function Performance() {
           data={formattedData.reverse()}
         >
           <PolarGrid stroke={"white"} gridType="polygon" radialLines={false} />
+          <PolarRadiusAxis domain={[0, 240]} axisLine={false} tick={false} />
           <PolarAngleAxis
             tick={{
               fill: "white",

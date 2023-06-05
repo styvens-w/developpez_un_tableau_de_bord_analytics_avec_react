@@ -1,6 +1,5 @@
 import "../assets/scss/app.scss";
-import React, { useEffect } from "react";
-import { useNavigate } from "react-router-dom";
+import React from "react";
 import { getError, getKeyData } from "../utils/services/app.service";
 import FormatChartData from "../utils/services/formatChartData";
 import Header from "../components/Header";
@@ -16,17 +15,17 @@ import Score from "../components/Score";
 import KeyInfos from "../components/KeyInfos";
 
 function App() {
-  const error = getError();
-  const navigate = useNavigate();
-  const chartDataFormatter = new FormatChartData();
+  // On récupère les données des infos clé
   const keyInfo = getKeyData();
+
+  // On instancie la classe qui va formater les données pour le graphique
+  const chartDataFormatter = new FormatChartData();
+
+  // Puis, on appelle la methode approprié au graphique et qui prend en paramètre les données
   const cardFormattedData = chartDataFormatter.setCardFormattedData(keyInfo);
 
-  useEffect(() => {
-    if (error) {
-      navigate("/404");
-    }
-  }, [error, navigate]);
+  // On appelle la fonction qui va vérifier les erreurs
+  getError();
 
   return (
     <React.Fragment>

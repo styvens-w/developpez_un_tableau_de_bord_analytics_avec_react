@@ -1,49 +1,46 @@
-// The imports
-import { useParams } from "react-router-dom";
+// Les imports
+import { useNavigate, useParams } from "react-router-dom";
 import { useAxios } from "../hooks/useAxios";
 
-// Enter "api" to retrieve the data through the api or "mocks" to retrieve it through the mocks
-let dataSources = "api";
+// Entrez "api" pour récupérer les données via l'api ou "mocks" pour les récupérer via les mocks
+let dataSources = "mocks";
 
 /**
- *
- * @param {string} typeData user - Retrieves user data
- * @param {string} typeData activity - Retrieves user activity data
- * @param {string} typeData sessions - Retrieves user session data
- * @param {string} typeData performance - Retrieves user performance data
+ * Les calls api
+ * @param {string} typeData user - Récupère les données de l'utilisateur
+ * @param {string} typeData activity - Récupère les données d'activité des utilisateurs
+ * @param {string} typeData sessions - Récupère les données de session utilisateur
+ * @param {string} typeData performance - Récupère les données de performance des utilisateurs
  * @returns {{data: Object}, {error: Object}}
  */
 function getData(typeData) {
-  // We get URL parameters with useParams().
+  // Nous obtenons les paramètres d'URL avec useParams().
   const { userId } = useParams(); // eslint-disable-line react-hooks/rules-of-hooks
   let link;
 
-  // If the data sources previously chosen are "api".
+  // Si les sources de données précédemment choisies sont "api".
   if (dataSources === "api") {
-    // We check the type of data we want to recover.
+    // Nous vérifions le type de données que nous voulons récupérer.
     // eslint-disable-next-line default-case
     switch (typeData) {
-      // If we want to recover user data.
+      // Si nous voulons récupérer les données de l'utilisateur.
       case "user":
-        // Then the variable "link" is equal to this link
+        // Alors la variable "link" est égale à ce lien
         link = `/user/${userId}`;
-        // We use "break" to ensure that only the statements associated with this case will be executed.
+        // Nous utilisons "break" pour nous assurer que seules les instructions associées à ce cas seront exécutées.
         break;
-      // If we want to retrieve user activity data.
       case "activity":
         link = `/user/${userId}/activity`;
         break;
-      // If we want to retrieve user session data.
       case "sessions":
         link = `/user/${userId}/average-sessions`;
         break;
-      // If we want to retrieve user performance data.
       case "performance":
         link = `/user/${userId}/performance`;
         break;
     }
 
-    // Else if the data sources previously chosen are "mocks".
+    // Sinon si les sources de données précédemment choisies sont "mocks".
   } else if (dataSources === "mocks") {
     // eslint-disable-next-line default-case
     switch (typeData) {
@@ -62,12 +59,12 @@ function getData(typeData) {
     }
   }
 
-  // We return the result with the hook created "useAxios()" which takes the "link" variable as a parameter.
+  // On retourne le résultat avec le hook créé "useAxios()" qui prend la variable "link" en paramètre.
   return useAxios(link); // eslint-disable-line react-hooks/rules-of-hooks
 }
 
 /**
- * We retrieve the first name of the user with the previously created function "getData()".
+ * On récupère le prénom de l'utilisateur avec la fonction "getData()" créée précédemment.
  * @returns {string}
  */
 export const getUserInfos = () => {
@@ -106,11 +103,23 @@ export const getPerformance = () => {
   return data;
 };
 
+/**
+ * On récupère les erreurs liées
+ * @returns {Object}
+ */
 export const getError = () => {
+  // On récupère les erreurs dû à l'api
   const { error } = getData("user");
+  const { data } = getData("user");
 
-  if (error === 404) {
-    return error;
+  // eslint-disable-next-line react-hooks/rules-of-hooks
+  const navigate = useNavigate();
+
+  // S'il y a l'erreur 404 ou qu'il n'y a aucune données dans les mocks, on redirige l'utilisateur vers la page 404
+  if (error === 404 || (dataSources === "mocks" && data === undefined)) {
+    navigate("/404");
+
+    //Sinon s'il y a une erreur 500, on modifie la source des données pour récupérer ceux mocker
   } else if (error === 500) {
     dataSources = "mocks";
   }

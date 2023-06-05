@@ -110,7 +110,7 @@ function LineCustomTooltip(props) {
 
   return (
     <div
-      style={{ transform: `translate(calc(${posX}px - 18px))` }}
+      style={{ transform: `translate(calc(${posX}px))` }}
       className="tool-tip__line-chart"
     >
       <p

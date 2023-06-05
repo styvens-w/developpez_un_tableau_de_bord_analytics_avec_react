@@ -2,6 +2,7 @@ import logoCalories from "../assets/images/logoCalories.svg";
 import logoProtein from "../assets/images/logoProtein.svg";
 import logoCarbs from "../assets/images/logoCarbs.svg";
 import logoFat from "../assets/images/logoFat.svg";
+import PropTypes from "prop-types";
 
 function KeyInfos({ name, value }) {
   let logo;
@@ -34,3 +35,8 @@ function KeyInfos({ name, value }) {
 }
 
 export default KeyInfos;
+
+KeyInfos.propTypes = {
+  name: PropTypes.string,
+  value: PropTypes.string,
+};

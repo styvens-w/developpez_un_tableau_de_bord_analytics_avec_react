@@ -5,6 +5,10 @@ import UserChoice from "./pages/UserChoice";
 import App from "./pages/App";
 import Error from "./pages/Error";
 
+/**
+ *
+ * @type {Router}
+ */
 const router = createBrowserRouter([
   {
     path: "/",
