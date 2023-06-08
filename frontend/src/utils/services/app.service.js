@@ -3,7 +3,7 @@ import { useNavigate, useParams } from "react-router-dom";
 import { useAxios } from "../hooks/useAxios";
 
 // Entrez "api" pour récupérer les données via l'api ou "mocks" pour les récupérer via les mocks
-let dataSources = "mocks";
+let dataSources = "api";
 
 /**
  * Les calls api
@@ -115,12 +115,12 @@ export const getError = () => {
   // eslint-disable-next-line react-hooks/rules-of-hooks
   const navigate = useNavigate();
 
-  // S'il y a l'erreur 404 ou qu'il n'y a aucune données dans les mocks, on redirige l'utilisateur vers la page 404
+  // S'il y a l'erreur 404 ou qu'il n'y a aucune données dans les mocks, on redirige l'utilisateur vers la page error
   if (error === 404 || (dataSources === "mocks" && data === undefined)) {
     navigate("/404");
 
-    //Sinon s'il y a une erreur 500, on modifie la source des données pour récupérer ceux mocker
+    //Sinon s'il y a une erreur 500, on redirige l'utilisateur vers la page error
   } else if (error === 500) {
-    dataSources = "mocks";
+    navigate("/500");
   }
 };

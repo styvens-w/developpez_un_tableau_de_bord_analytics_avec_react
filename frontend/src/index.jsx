@@ -20,7 +20,7 @@ const router = createBrowserRouter([
     element: <App />,
   },
   {
-    path: "/404",
+    path: "/:errorCode",
     element: <Error />,
   },
 ]);

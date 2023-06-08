@@ -4,24 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f57339d9-6b84-4df1-90e4-66040262c86b" name="Changes" comment="modification : la console n'affiche plus d'erreur">
+    <list default="true" id="f57339d9-6b84-4df1-90e4-66040262c86b" name="Changes" comment="modification : Ajout de commentaire et correction mineur">
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/assets/scss/base/_base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/assets/scss/base/_base.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/assets/scss/layouts/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/assets/scss/layouts/_header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/assets/scss/layouts/_sideBar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/assets/scss/layouts/_sideBar.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/Activity.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/Activity.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/KeyInfos.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/KeyInfos.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/Navbar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/Performance.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/Performance.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/Sessions.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/Sessions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/SideBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/SideBar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/SideNavbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/SideNavbar.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/pages/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/utils/hooks/useAxios.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/utils/hooks/useAxios.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/Error.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/Error.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/utils/services/app.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/utils/services/app.service.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/utils/services/formatChartData.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/utils/services/formatChartData.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +93,11 @@
       <workItem from="1684500931303" duration="755000" />
       <workItem from="1685452986341" duration="11831000" />
       <workItem from="1685962039620" duration="1754000" />
-      <workItem from="1685964078478" duration="6915000" />
+      <workItem from="1685964078478" duration="6972000" />
+      <workItem from="1685972701669" duration="715000" />
+      <workItem from="1685973477345" duration="54000" />
+      <workItem from="1685975251186" duration="5419000" />
+      <workItem from="1686230864127" duration="1129000" />
     </task>
     <task id="LOCAL-00001" summary="Project initialization">
       <created>1681150341216</created>
@@ -128,7 +120,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685458617183</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="modification : Ajout de commentaire et correction mineur">
+      <created>1685971162294</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1685971162294</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -138,6 +137,7 @@
     <MESSAGE value="Project initialization" />
     <MESSAGE value="modification : si l'api n'est pas connecté, passe directement aux données mocker" />
     <MESSAGE value="modification : la console n'affiche plus d'erreur" />
-    <option name="LAST_COMMIT_MESSAGE" value="modification : la console n'affiche plus d'erreur" />
+    <MESSAGE value="modification : Ajout de commentaire et correction mineur" />
+    <option name="LAST_COMMIT_MESSAGE" value="modification : Ajout de commentaire et correction mineur" />
   </component>
 </project>
